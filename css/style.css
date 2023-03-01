@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #8e7cc3;
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    align-items: center;
+}
+
+.div-logo{
+    margin-left: 20px;
+    background-color: #EEE;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    margin-right: 20px;
+}
+
+li{
+    color: white;
+    margin: 3px;
+}
+
+li:hover{
+    text-decoration: underline;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+main div{
+    display: flex;
+    height: 200px;
+    width: 200px;
+    margin: 100px;
+    border-radius: 30px;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.div-missao{
+    background-color: #6aa84f;
+}
+
+.div-visao{
+    background-color: #6fa8dc
+}
+
+.div-valores{
+    background-color: #f6b26b;
+}
+
+footer{
+    background-color: gray;
+    height: 60px;
+}
