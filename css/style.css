@@ -4,7 +4,11 @@
     box-sizing: border-box;
 }
 
-header{
+html, body{
+    height: 100%;
+}
+
+.cabecalho{
     background-color: #8e7cc3;
     display: flex;
     justify-content: space-between;
@@ -69,6 +73,13 @@ main div{
 }
 
 footer{
+    flex-shrink: 0;
     background-color: gray;
     height: 60px;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
